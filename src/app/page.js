@@ -1,5 +1,6 @@
 import Image from "next/image";
 import BottonSave from "./components/ButtonSave";
+import Tittle from "./components/Tittle";
 
 export default function Home() {
   return (
@@ -21,10 +22,11 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Hola Universo.</li>
+          <Tittle />
           
         </ol>
         <BottonSave /> 
+        
         
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
